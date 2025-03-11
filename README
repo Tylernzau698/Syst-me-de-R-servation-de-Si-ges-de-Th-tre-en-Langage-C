@@ -1,0 +1,50 @@
+Système de Réservation de Sièges de Théâtre en Langage C 🎭
+Ce projet est une mini-application développée en langage C qui permet de gérer la réservation de sièges pour une séance de cinéma ou de théâtre. Il s'agit d'un projet simple, idéal pour les étudiants en première année en informatique qui souhaitent se familiariser avec la programmation en C.
+
+🔍 Présentation du projet
+
+Le Système de Réservation de Sièges de Théâtre est une application de bureau qui offre des fonctionnalités de base pour la gestion des réservations de places dans une salle de spectacle.
+L'objectif de ce projet est d'aider les étudiants à comprendre les structures de données, la gestion des fichiers et l’interaction avec l’utilisateur en langage C.
+
+⚙️ Fonctionnalités disponibles :
+
+✅ Réserver un siège → L’utilisateur peut sélectionner un siège disponible et le réserver.
+✅ Annuler une réservation → L’utilisateur peut annuler une réservation existante.
+✅ Afficher les sièges disponibles → Le système indique combien de sièges restent à réserver.
+✅ Afficher l'historique des réservations → L’utilisateur peut consulter la liste des réservations effectuées.
+
+⚠️ Limitations du projet :
+Il n'est pas possible d'ajouter plusieurs films ou séances.
+Le projet fonctionne pour une seule séance à la fois.
+🛠️ Technologies utilisées :
+
+🔹 Langage de programmation → C
+🔹 IDE recommandé → Dev-C++
+🔹 Base de données → Aucune (Le projet utilise un fichier texte (.txt) pour stocker les données).
+🔹 Type d’application → Application de bureau
+
+📌 Explication du projet :
+
+Ce projet suit une structure simple où les données sont stockées dans un fichier texte pour garder une trace des sièges réservés et disponibles. Voici le fonctionnement général :
+
+1️⃣ Affichage des sièges disponibles : Au démarrage, le programme affiche un plan des sièges et indique ceux qui sont déjà réservés.
+2️⃣ Réservation d’un siège : L’utilisateur entre le numéro du siège qu’il souhaite réserver. Une vérification est effectuée pour s’assurer qu’il est disponible.
+3️⃣ Annulation d’une réservation : Si l’utilisateur souhaite annuler, il peut entrer le numéro du siège et le système le rendra disponible à nouveau.
+4️⃣ Affichage des réservations : Le programme affiche la liste des sièges qui ont été réservés.
+
+🎯 Objectif pédagogique
+
+Ce projet est conçu pour permettre aux étudiants de pratiquer plusieurs concepts en C, notamment :
+🔹 La gestion des fichiers en C (lecture et écriture dans un fichier .txt).
+🔹 L’utilisation des tableaux pour stocker les sièges.
+🔹 La gestion des entrées utilisateur avec scanf().
+🔹 L'affichage dynamique pour mettre à jour les sièges en temps réel.
+
+📌 Conclusion
+
+Ce projet est une bonne introduction à la programmation système en C et à la gestion des données sans base de données. Bien que basique, il peut être amélioré en ajoutant :
+✔️ La gestion de plusieurs films et plusieurs horaires de séances.
+✔️ Une interface graphique (via une bibliothèque comme GTK ou ncurses).
+✔️ Une connexion avec une base de données au lieu d’un fichier texte.
+
+📧 Besoin d’améliorations ? Ce projet est modulable et peut être enrichi selon vos besoins ! 🚀
