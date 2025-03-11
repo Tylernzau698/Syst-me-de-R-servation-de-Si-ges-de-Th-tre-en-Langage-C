@@ -1,4 +1,6 @@
 Système de Réservation de Sièges de Théâtre en Langage C 🎭
+
+
 Ce projet est une mini-application développée en langage C qui permet de gérer la réservation de sièges pour une séance de cinéma ou de théâtre. Il s'agit d'un projet simple, idéal pour les étudiants en première année en informatique qui souhaitent se familiariser avec la programmation en C.
 
 🔍 Présentation du projet
@@ -14,8 +16,10 @@ L'objectif de ce projet est d'aider les étudiants à comprendre les structures 
 ✅ Afficher l'historique des réservations → L’utilisateur peut consulter la liste des réservations effectuées.
 
 ⚠️ Limitations du projet :
+
 Il n'est pas possible d'ajouter plusieurs films ou séances.
 Le projet fonctionne pour une seule séance à la fois.
+
 🛠️ Technologies utilisées :
 
 🔹 Langage de programmation → C
